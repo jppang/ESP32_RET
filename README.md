@@ -11,4 +11,4 @@ All parameters are set explicitly in the [config.h](https://github.com/jppang/ES
 
 Only one CAN BUS supported and CAN BUS speed is initially set at 500kb/s.
 
-This firmware has been tested on ESP32(30pin)/ESP32C6(Seeed XIAO)/ESP32S3(devkit).
+This firmware has been tested on ESP32(30pin)/ESP32C6(Seeed XIAO)/ESP32S3(devkit) boards.
