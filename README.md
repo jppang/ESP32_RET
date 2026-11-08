@@ -7,7 +7,7 @@ This firmware is developed in the VS Code with Platformio environment with the l
 
 Minor modification is made to change the CAN BUS terminology from CAN1/CAN2 to CAN0/CAN1 in [ESP32-TWAI-CAN](https://github.com/handmade0octopus/ESP32-TWAI-CAN) in order to meet the [ESP32RET](https://github.com/collin80/ESP32RET)'s ordering. Latest version is downloaded and modified not the released version.
 
-All parameters are set explicitly in the [config.h](https://github.com/jppang/ESP32_RET/src/config.h) file. No guess work needed.
+All parameters are set explicitly in the [config.h](src/config.h) file. No guess work needed.
 
 Only one CAN BUS supported and CAN BUS speed is initially set at 500kb/s.
 
