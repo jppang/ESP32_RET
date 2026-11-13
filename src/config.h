@@ -45,6 +45,9 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 // set CAN bus speed
 #define CAN_BUS_SPEED   500000  //bps
 
+// set USB Serial baud rate
+#define SERIAL_BAUD_RATE    1000000     //bps
+
 // define SSID and password for SoftAP
 #define SSID_NAME "ESP32_RET"
 #define WPA2KEY "aBigSecret"

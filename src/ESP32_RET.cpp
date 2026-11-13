@@ -158,8 +158,7 @@ String getInterfaceMacAddress(esp_mac_type_t interface)
 
 void setup()
 {
-  Serial.begin(1000000);
-  //Serial.begin(115200);
+  Serial.begin(SERIAL_BAUD_RATE);
   delay(250);
   // display ESP32 details
   for (int i = 0; i < 17; i = i + 8)
