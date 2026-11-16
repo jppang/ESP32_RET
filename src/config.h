@@ -37,7 +37,7 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #include <ESP32-TWAI-CAN.hpp>
 
 // define GPIO pins for ESP32 internal CAN bus controller
-#ifdef xiao_esp32c6
+#ifdef XIAO_ESP32C6
 #define GPIO_CAN_TX     D5  //xiao_esp32c6 board
 #define GPIO_CAN_RX     D4  //xiao_esp32c6 board
 #else
