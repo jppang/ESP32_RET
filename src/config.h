@@ -37,10 +37,13 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #include <ESP32-TWAI-CAN.hpp>
 
 // define GPIO pins for ESP32 internal CAN bus controller
+#ifdef xiao_esp32c6
 #define GPIO_CAN_TX     D5  //xiao_esp32c6 board
 #define GPIO_CAN_RX     D4  //xiao_esp32c6 board
-//#define GPIO_CAN_TX     GPIO_NUM_17     //esp32, esp32s3 boards
-//#define GPIO_CAN_RX     GPIO_NUM_16     //esp32, esp32s3 boards
+#else
+#define GPIO_CAN_TX     GPIO_NUM_5    //esp32, esp32s3 boards
+#define GPIO_CAN_RX     GPIO_NUM_4     //esp32, esp32s3 boards
+#endif
 
 // set CAN bus speed
 #define CAN_BUS_SPEED   500000  //bps
