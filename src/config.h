@@ -41,8 +41,8 @@ SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 #define GPIO_CAN_TX     D5  //xiao_esp32c6 board
 #define GPIO_CAN_RX     D4  //xiao_esp32c6 board
 #else
-#define GPIO_CAN_TX     GPIO_NUM_5    //esp32, esp32s3 boards
-#define GPIO_CAN_RX     GPIO_NUM_4     //esp32, esp32s3 boards
+#define GPIO_CAN_TX     GPIO_NUM_5    //esp32, esp32s3, esp32c5 boards
+#define GPIO_CAN_RX     GPIO_NUM_4     //esp32, esp32s3, esp32c5 boards
 #endif
 
 // set CAN bus speed
